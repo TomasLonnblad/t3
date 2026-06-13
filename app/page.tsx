@@ -6,19 +6,19 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between px-6 py-4 md:px-10">
         {/* Logo - Left */}
-        <a href="#" className="text-sm font-semibold tracking-tight text-white transition-opacity hover:opacity-70">
-          {""}
+        <a href="#" aria-label="Golf Media Home" className="text-sm font-semibold tracking-tight text-white transition-opacity hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
+          Golf Media
         </a>
 
         {/* Nav Links - Center (hidden on mobile) */}
         <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 md:flex">
-          <a href="https://tomaslonnblad.github.io/tl337/" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+          <a href="https://tomaslonnblad.github.io/tl337/" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
             Ordinary 
           </a>
-          <a href="#https://tomaslonnblad.github.io/stroke" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+          <a href="#https://tomaslonnblad.github.io/stroke" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
             Technology
           </a>
-          <a href= "mailto:tomaslonnblad@gmail.com" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+          <a href= "mailto:tomaslonnblad@gmail.com" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
             Mail
           </a>
         </div>
@@ -213,11 +213,13 @@ export default function Home() {
           <div className="grid gap-12 md:grid-cols-2 md:gap-16">
             <div>
               <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.3em] text-white/40">The Future of Tecnologi</p>
-              <h3 className="text-3xl font-semibold tracking-tight text-white md:text-4xl"></h3>
+              <h3 className="text-3xl font-semibold tracking-tight text-white md:text-4xl">
+                Advanced Materials
+              </h3>
               <p className="mt-4 max-w-md text-sm leading-relaxed text-white/40">
                 Materials Titliest .
               </p>
-              <button className="mt-8 rounded-full bg-white px-8 py-3 text-sm font-medium text-black transition-opacity hover:opacity-90">
+              <button className="mt-8 rounded-full bg-white px-8 py-3 text-sm font-medium text-black transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]">
                 Balls Titliest
               </button>
             </div>
@@ -229,13 +231,13 @@ export default function Home() {
           <div className="mt-20 flex flex-wrap items-center justify-between gap-4 border-t border-white/5 pt-8 text-xs text-white/30">
             <span>MetalWoods TaylorMade</span>
             <div className="flex gap-6">
-              <a href="#" className="transition-colors hover:text-white/60">
+              <a href="#" className="transition-colors hover:text-white/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
                 Privacy
               </a>
-              <a href="#" className="transition-colors hover:text-white/60">
+              <a href="#" className="transition-colors hover:text-white/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
                 Terms
               </a>
-              <a href= "mailto:tomaslonnblad@gmail.com" className="transition-colors hover:text-white/60">
+              <a href= "mailto:tomaslonnblad@gmail.com" className="transition-colors hover:text-white/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505] rounded-sm">
                 Contact
               </a>
             </div>

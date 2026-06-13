@@ -134,7 +134,7 @@ export default function HeadphoneScroll() {
       {/* Loading Screen */}
       {!isLoaded && (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#050505]">
-          <div className="mb-4 text-xl font-medium tracking-tight text-white/80"></div>
+          <div className="mb-4 text-xl font-medium tracking-tight text-white/80">Golf Media</div>
           <div className="mb-6">
             <motion.div
               className="h-[2px] w-56 overflow-hidden rounded-full bg-white/10"
@@ -168,7 +168,14 @@ export default function HeadphoneScroll() {
       <div ref={containerRef} className="relative h-[500vh]">
         {/* Sticky Canvas */}
         <div className="sticky top-0 flex h-screen w-full items-center justify-center overflow-hidden">
-          <canvas ref={canvasRef} className="h-full w-full" />
+          <canvas
+            ref={canvasRef}
+            className="h-full w-full"
+            role="img"
+            aria-label="Interactive 3D product showcase scrolling visualization"
+          >
+            Interactive 3D product showcase scrolling visualization.
+          </canvas>
 
           {/* Text Overlays */}
           <div className="pointer-events-none absolute inset-0">
@@ -192,7 +199,7 @@ export default function HeadphoneScroll() {
                   transition={{ delay: 0.5, duration: 0.8 }}
                   style={{ textShadow: "0 4px 30px rgba(0,0,0,0.5)" }}
                 >
-                  
+                  Golf Experience
                 </motion.h1>
                 <motion.p
                   className="mt-4 max-w-md text-base font-normal tracking-wide text-white/70 md:text-lg"
@@ -200,7 +207,7 @@ export default function HeadphoneScroll() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.7, duration: 0.8 }}
                 >
-                  
+                  Discover the perfect blend of precision engineering and outstanding performance on the green.
                 </motion.p>
                 <motion.div
                   className="mt-8 flex items-center gap-3"
@@ -276,11 +283,11 @@ export default function HeadphoneScroll() {
                   Wedge.
                 </p>
                 <motion.button
-                  className="pointer-events-auto mt-8 rounded-full bg-white px-8 py-4 text-sm font-semibold tracking-wide text-black transition-all hover:bg-white/90"
+                  className="pointer-events-auto mt-8 rounded-full bg-white px-8 py-4 text-sm font-semibold tracking-wide text-black transition-all hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  
+                  Explore Performance
                 </motion.button>
               </div>
             </motion.div>
